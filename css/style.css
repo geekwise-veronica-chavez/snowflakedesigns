@@ -18,8 +18,10 @@ header{
     background-color: azure;
     clear: both;
 }
-span{
+#span_one{
     width: auto;
+    height: 50px;
+    background-color:magenta;
     margin: 0;
     padding: 0;
     
@@ -33,24 +35,50 @@ span{
     float: left;
    
 }
-#ul_one{
+.span_two{
     margin: 0;
     padding: 0;
     width: 80%;
+    
+    
+}
+#ul_one{
+    margin: 0;
+    padding: 15px;
+    width:60%;
     display: block;
+    height: 70px;
+    float: left;
 }
 #li_one{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     display: inline;
     text-transform: capitalize;
     list-style: none;
-    width: calc(100%/6);
+    width:calc(80%/3);
     float: left;
-    text-align: left;
+    text-align: center;
     line-height: 2;
     background-color: #6c5b79;
+    font-size: 12px;
     
+}
+input{
+    background-color: #6c5b79; 
+    text-align: center;
+    color:#f1f1f1;
+    
+}
+#compras_pro{
+    margin:0 ;
+    padding: 0;
+    width: 60%;
+}
+.compras{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 main{
     width: 100%;
