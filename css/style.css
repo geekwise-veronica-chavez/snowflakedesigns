@@ -55,12 +55,13 @@ header{
     line-height: 2;
     background-color: #6c5b79;
     font-size: 15px;
+    color: #fff;
     
 }
 input{
     background-color: #6c5b79; 
     text-align: center;
-    color:#f1f1f1;
+    color:#fff;
     border-style: none;
     
     
@@ -117,7 +118,14 @@ a{
     color: #fff;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
+#hover_purple:hover{
+    background-color: #BB6E9A;
+    text-decoration: none;
+}
 
 
 
