@@ -87,8 +87,8 @@ main{
     height: auto;
 }
 #main_nav{
-    display: block;
-    width: 100%;
+    display:inline-block;
+    width:100%;
     height: auto;
     margin: auto;
     padding: 0;
@@ -97,11 +97,20 @@ main{
 }
 .list_two{
     display: inline;
-    margin: 0;
+    margin: 5px;
+    font-size: 13px;
+    float: left;
     padding: 0;
-    width: calc(100%/9);
-    height: 0;
-    
+    width: calc(130%/13);
+    text-align: center;
+    line-height: 2;
+    text-transform: uppercase;
+}
+.list_three{
+    display: inline;
+    margin: 0;
+    float: left;
+    padding: 3px;
     
 }
 a{
