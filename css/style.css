@@ -40,12 +40,12 @@ header{
     padding-top:15px;
     width:60%;
     display: block;
-    height: 60px;
+    height: 130px;
     float: right;
 }
 #li_one{
     margin: 5px;
-    padding: 10px;
+    padding: 3px;
     display: inline;
     text-transform: capitalize;
     list-style: none;
@@ -55,12 +55,14 @@ header{
     line-height: 2;
     background-color: #6c5b79;
     font-size: 15px;
+    color: #fff;
+    
     
 }
 input{
     background-color: #6c5b79; 
     text-align: center;
-    color:#f1f1f1;
+    color:#fff;
     border-style: none;
     
     
@@ -117,7 +119,21 @@ a{
     color: #fff;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 
+.list_two:hover{
+    background-color: #a62d7f;
+    text-decoration: none;
+    width:130px;
+
+}
+#hover_purple:hover{
+    text-decoration: none;
+    color:#f42098;
+    
+}
 
 
 
