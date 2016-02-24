@@ -5,7 +5,7 @@ html,body{
     box-sizing: border-box;
 }
 body{
-    font-size: 12px;
+    font-size: 15px;
     margin: 0;
     padding: 0;
     
@@ -35,24 +35,17 @@ header{
     float: left;
    
 }
-.span_two{
-    margin: 0;
-    padding: 0;
-    width: 80%;
-    
-    
-}
 #ul_one{
     margin: 0;
-    padding: 15px;
+    padding-top:15px;
     width:60%;
     display: block;
-    height: 70px;
-    float: left;
+    height: 60px;
+    float: right;
 }
 #li_one{
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 10px;
     display: inline;
     text-transform: capitalize;
     list-style: none;
@@ -61,24 +54,31 @@ header{
     text-align: center;
     line-height: 2;
     background-color: #6c5b79;
-    font-size: 12px;
+    font-size: 15px;
     
 }
 input{
     background-color: #6c5b79; 
     text-align: center;
     color:#f1f1f1;
+    border-style: none;
     
-}
-#compras_pro{
-    margin:0 ;
-    padding: 0;
-    width: 60%;
+    
 }
 .compras{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: inline;
+    float: left;
+    width: calc(80%/4);
+    text-align: left;  
+    margin-left: 10px;
+}
+#tel{
+    color:#f42098;
+    font-size: 18px;
+    line-height: 1;
 }
 main{
     width: 100%;
@@ -86,20 +86,20 @@ main{
     padding: 0;
     height: auto;
 }
-#ul_two{
+#main_nav{
     display: block;
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
     padding: 0;
     background-color: #f42098;
-    font-size: 15px;
+    font-size: 15x;
 }
 .list_two{
     display: inline;
     margin: 0;
     padding: 0;
-    width: calc(100%/13);
+    width: calc(100%/9);
     height: 0;
     
     
@@ -108,3 +108,13 @@ a{
     color: #fff;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
