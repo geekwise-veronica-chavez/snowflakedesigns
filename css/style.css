@@ -175,6 +175,7 @@ a:hover{
         
     }
     #ul_one{
+        
         width: 100%;
         
     }
@@ -198,7 +199,8 @@ a:hover{
         line-height: 2.5;
     }
     #main_nav{
-        display: none;
+        
+        display:none ;
         
     }
     
@@ -209,6 +211,11 @@ a:hover{
    opacity:1;
     position:relative;
    z-index:1;
+    width: 100%;
+    background-color: #f42098;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
 }
 
 
