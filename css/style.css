@@ -133,9 +133,28 @@ a:hover{
     color:#f42098;
     
 }
+#dropdown{
+    
+}
 
-@media only screen and (max-width:48rem){   body{
+
+
+#dropdown {
+    display:block;
+   
+   opacity:0; position:relative;
+   z-index:0;
+}
+
+
+
+
+
+@media only screen and (max-width:48rem){
+    
+    body{
         font-size: 12px;
+        
     }
     header{
         width: 100%;
@@ -166,18 +185,37 @@ a:hover{
         transform: translateX(9%)
     }
     .compras{
-        width:calc(80%/4);
+        width:calc(70%/3);
         margin: 0;
         text-align: center;
-        margin-left: 15px;
+        margin-left: 25px;
     }
-    .commpras shop{
-        line-height: 2.5;
+    #shop{
+        display: none;
     }
     #tel{
         font-size: 12px;
         line-height: 2.5;
     }
+    #main_nav{
+        display: none;
+        
+    }
+    
+    
+#dropdown {
+    display:block;
+   
+   opacity:1;
+    position:relative;
+   z-index:1;
+}
+
+
+    
+
+    
+/*
     
     #main_nav{
         width: 100%;
@@ -197,21 +235,13 @@ a:hover{
         
 
     }
+*/
     
     .list_three{
         display: none;
        
     }
-    <ul id="main_nav">
-        <select id="dropdown">
-        <option value="#">home</option>
-        <option value="#">what's new'</option> 
-        <option value="#">clothes</option>     
-        <option value="#">accessories</option> 
-        <option value="#">men&boys</option> 
-        <option value="#">help</option> 
-        <option value="#">sales</option>
-        </select>
+   
    
 }
 
